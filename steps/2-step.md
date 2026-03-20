@@ -20,7 +20,7 @@ The File menu is in the top menu bar of VS Code, at the very top-left of the win
 
 - On the sidebar, select the GitHub Copilot modernization pane, where you can select Migrate to Azure or Run Assessment in the ASSESSMENT section. 
 
-![Upgrade Java Version](../src/images/GHCP-Modernization-On-IDE.png)
+![GHCP App Modernization on IDE](../src/images/GHCP-Modernization-On-IDE.png)
 
 ![Run Assessment](../src/images/run-assessment.png)
 

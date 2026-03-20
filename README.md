@@ -1,8 +1,7 @@
-# Application Modernization with Github Copilot - Java edition
+# Application Modernization with Github Copilot 
+# Java edition
 
 ## Welcome
-
-[GitHub Copilot modernization for Java](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java) is an AI-powered assistant built on GitHub Copilot agent mode that delivers end-to-end support for modernizing Java applications. It automates complex tasks such as upgrading Java runtimes (versions 8, 11, 17, and 21), migrating Spring Boot applications, remediating security vulnerabilities (CVEs), and preparing apps for deployment on Azure. It integrates open-source tools like OpenRewrite alongside predefined and custom migration tasks to reduce manual effort while keeping developers in full control. Beyond code upgrades, it also handles containerization and cloud deployment to targets like Azure Container Apps and AKS.
 
 This lab follows the [Quickstart: assess and migrate a Java project using GitHub Copilot modernization](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java-quickstart-assess-migrate?toc=/azure/developer/github-copilot-app-modernization). You will install and configure the GitHub Copilot modernization extension, run an AppCAT-powered cloud readiness assessment on a sample Java project, and then apply a predefined migration task — for example, switching an Azure SQL database connection from username/password to Azure Managed Identity. The lab also covers the automated validation loop (CVE checks, build fixes, consistency checks, and unit test generation) that Copilot runs after applying code changes.
 
@@ -16,33 +15,44 @@ This lab follows the [Quickstart: assess and migrate a Java project using GitHub
 > [!IMPORTANT]
 > Do **not** fork or clone this repo directly. Use **Copy Exercise** below to get your own clean copy, so that the Codespace badge and step instructions point to your repository.
 
-Scroll to the bottom of this page and click **Copy Exercise** — or click the button below:
+ Click **Copy Exercise** :
 
-[Copy Exercise](https://github.com/new?template_owner=mburakunuvar&template_name=ghcp-lab03-application-modernization&owner=%40me&name=lab03-application-modernization&description=Exercise:+Application+Modernization+with+GitHub+Copilot&visibility=public)
+[![Copy Exercise](https://img.shields.io/badge/Copy%20Exercise-green?style=for-the-badge)](https://github.com/new?template_owner=mburakunuvar&template_name=ghcp-lab03-application-modernization&owner=%40me&name=lab03-application-modernization&description=Exercise:+Application+Modernization+with+GitHub+Copilot&visibility=public)
 
 After copying, wait a few seconds and refresh your new repository page. A GitHub Actions workflow will automatically personalize the Codespaces badge for your repository.
 
 ---
 
-## Prerequisites
+## Prerequisites- Codespaces Setup 
 
-1. **Right click** the **Open in GitHub Codespaces** button below and open the **Create Codespace** page in a new tab. Proceed with the default configuration, without changing options.
+1. **Right click** the **Open in GitHub Codespaces** button below and open the **Create Codespace** page in a new tab. 
 
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
 
-1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
+1. Confirm the **Repository** field is your copy of the exercise, not the original : 
+
    - ✅ Your copy: `/{{full_repo_name}}`
+   - ❌ Original: `/mburakunuvar/ghcp-lab03-application-modernizationz`
 
-1. Wait a moment for Visual Studio Code to load in your browser. Please be patient, it's deploying all the packages and necessary extensions for the lab 🙂
+   Make selections below and then click the green **Create Codespace** button: 
 
-1. Once ready, enter the prompt below to ask Copilot to introduce you to the project. Don't let it make any changes yet 😊
+   ![Upgrade Java Version](src/images/upgrade-java-version.png)
+
+1. Wait a moment for Visual Studio Code to load in your browser. Please be patient, it's deploying all the packages and necessary extensions for the lab. 
+
+1. Once ready, enter the prompts below to ask Copilot to introduce you to the project. Don't let the agent make any changes - yet 😊
 
    > ![Prompt](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
 
    > ```prompt
-   > Briefly explain what each sample project in this workspace does
+   > Briefly explain what this project is about
    > ```
-
+   > ```prompt
+   > brieflly explain what #asset-manager project is about
+   > ```
+   > ```prompt
+   > Does it need an upgrade 
+   > ```
 ---
 
 ## Step 1 — Upgrade JDK and dependency versions
