@@ -14,17 +14,17 @@ In short, it gives you a structured, AI-assisted picture of *what needs to chang
 - Open The mi-sql-public-demo Project 
 
 The File menu is in the top menu bar of VS Code, at the very top-left of the window. Click it to see options like Open Folder, New File, Save, etc. Use **File → Open Folder** and navigate to:
-`C:\.......\ghcp-lab03-application-modernization\mi-sql-public-demo`
+`C:\.......\ghcp-lab03-application-modernization\mi-sql-public-demo` and Open the folder.
 
 > **Note:** Using **File → Open Folder** on `mi-sql-public-demo` will replace the current workspace and lose the multi-folder view. To get back when/if needed, use **File → Open Folder** and navigate to `C:\.......\ghcp-lab03-application-modernization`, or press `Ctrl+R` to reopen it from recent workspaces.
 
-- On the sidebar, select the GitHub Copilot modernization pane, where you can select Migrate to Azure or Run Assessment in the ASSESSMENT section. 
+- On the sidebar, select the GitHub Copilot modernization pane, where you can select Migrate to Azure or Run Assessment in the ASSESSMENT section.  Proceed with **"Recommended Asessment"** and sekect all options.
 
-![GHCP App Modernization on IDE](../src/images/GHCP-Modernization-On-IDE.png)
+<p align="center">
+  <img src="../src/images/start-assessment.png" alt="Start Assessment from the modernization sidebar" width="600">
+</p>
 
-![Run Assessment](../src/images/run-assessment.png)
-
-- The GitHub Copilot chat window with agent mode opens to call the modernization assessor to execute the GitHub Copilot modernization assessment. Select Continue to confirm.
+-  The GitHub Copilot chat window with agent mode opens to call the modernization assessor to execute the GitHub Copilot modernization assessment. Select Continue to confirm.
 
 - The modernization assessor now opens appcat.log. This file shows the logs for running AppCAT, which performs the app assessment. Select Continue to confirm again.
 
@@ -32,7 +32,18 @@ The File menu is in the top menu bar of VS Code, at the very top-left of the win
 
 - Upon completion of the analysis, the modernization assessor produces a categorized view of cloud readiness issues in an opened Assessment Report.
 
-![Run Assessment](../src/images/assessment-report.png)
+<p align="center">
+  <img src="../src/images/assessment-report.png" alt="Assessment Report — categorized cloud readiness issues" width="800">
+</p>
 
 
-- INFO ONLY  - NO ACTION NEEDED FOR THIS TODAY : When reviewing the summary report, you can select Migrate to Azure SQL Database (Spring) from the solution list under the issue Database Migration (Microsoft SQL). Then, select Run Task to move to the code remediation stage
+Spend some time reading the report and see what's your agent is capable of. 
+
+- INFO ONLY  - NO ACTION NEEDED FOR CLOUD READINESS TODAY: When reviewing the summary report, you can select Migrate to Azure SQL Database (Spring) from the solution list under the issue Database Migration (Microsoft SQL). Then, select Run Task to move to the code remediation stage
+
+- Run Task **CWE-778 - Insufficient Logging** from security category. Allow Copilot App Modernization Agent to run the commands,
+<p align="center">
+  <img src="../src/images/security-update.png" alt="Assessment Report — categorized cloud readiness issues" width="800">
+</p>
+
+- You can monitor all the work and implement the plan for a better understanding of all on going taks. Or proceed with [steps/3-step.md](steps/3-step.md)

@@ -36,7 +36,9 @@ After copying, wait a few seconds and refresh your new repository page. A GitHub
 
    Make selections below and then click the green **Create Codespace** button: 
 
-   ![Upgrade Java Version](src/images/upgrade-java-version.png)
+   <p align="center">
+     <img src="src/images/upgrade-java-version.png" alt="Codespace creation options" width="600">
+   </p>
 
 1. Wait a moment for Visual Studio Code to load in your browser. Please be patient, it's deploying all the packages and necessary extensions for the lab. 
 
