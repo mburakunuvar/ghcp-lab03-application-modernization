@@ -57,7 +57,7 @@ From top right of the screen, click **"Show Sessions Side Bar"** and observe 3 a
 </p>
 
 
-- There's no dependency for the next step. You can either wait for agents to complete their tasks or proceed with [steps/2-step.md](steps/2-step.md)
+- There's no dependency for the next step. You can either wait for agents to complete their tasks or proceed with [steps/2-step.md](2-step.md)
 
 ## Resources
 
