@@ -1,9 +1,9 @@
 # Application Modernization with Github Copilot 
-# Java edition
+## - Java edition
 
 ## Welcome
 
-This lab follows the [Quickstart: assess and migrate a Java project using GitHub Copilot modernization](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java-quickstart-assess-migrate?toc=/azure/developer/github-copilot-app-modernization). You will install and configure the GitHub Copilot modernization extension, run an AppCAT-powered cloud readiness assessment on a sample Java project, and then apply a predefined migration task — for example, switching an Azure SQL database connection from username/password to Azure Managed Identity. The lab also covers the automated validation loop (CVE checks, build fixes, consistency checks, and unit test generation) that Copilot runs after applying code changes.
+
 
 - **Who is this for:** Java developers looking to modernize and migrate applications to Azure.
 - **What you'll learn:** How to use GitHub Copilot to upgrade Java runtimes, assess cloud readiness, and generate unit tests.
@@ -34,28 +34,42 @@ After copying, wait a few seconds and refresh your new repository page. A GitHub
    - ✅ Your copy: `/{{full_repo_name}}`
    - ❌ Original: `/mburakunuvar/ghcp-lab03-application-modernizationz`
 
-   Make selections below and then click the green **Create Codespace** button: 
+   Make selections below and then click the green **Create Codespace** button and proceed with default options. You can also click **Check Options** first to cross-check if the configuration matches the screenshot below and the creation.
 
    <p align="center">
-     <img src="src/images/upgrade-java-version.png" alt="Codespace creation options" width="600">
+     <img src="src/images/create-codespace.png" alt="Codespace creation options" width="600">
    </p>
 
 1. Wait a moment for Visual Studio Code to load in your browser. Please be patient, it's deploying all the packages and necessary extensions for the lab. 
 
+
+It'll take 3-4 minutes for your online base VS Code to be provisioned with all required packages and extentions for the lab. This lab follows the [Quickstart: assess and migrate a Java project using GitHub Copilot modernization](https://learn.microsoft.com/en-us/azure/developer/java/migration/migrate-github-copilot-app-modernization-for-java-quickstart-assess-migrate?toc=/azure/developer/github-copilot-app-modernization). You will work with  GitHub Copilot modernization extension, run an AppCAT-powered cloud readiness assessment on a sample Java project, and then apply a predefined migration task — for example, switching an Azure SQL database connection from username/password to Azure Managed Identity. The lab also covers the automated validation loop (CVE checks, build fixes, consistency checks, and unit test generation) that Copilot runs after applying code changes.
+
+
 1. Once ready, enter the prompts below to ask Copilot to introduce you to the project. Don't let the agent make any changes - yet 😊
+
+
 
    > ![Prompt](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
 
    > ```prompt
-   > Briefly explain what this project is about
+   > #codebase Briefly explain what this project is about
    > ```
    > ```prompt
-   > brieflly explain what #asset-manager project is about
+   > #file:asset-manager  Briefly explain what this project is about
    > ```
    > ```prompt
    > Does it need an upgrade 
    > ```
 ---
+
+Warning : Next steps will assume intermediate level familiariy with Github Copilot. 
+
+- For a quick read about Slash commands, Chat variables and participants please refer to   [GitHub Copilot Chat cheat sheet](https://docs.github.com/en/copilot/reference/chat-cheat-sheet) 
+- for a quick read about  [built-in agents](https://code.visualstudio.com/docs/copilot/chat/copilot-chat#_choose-an-agent). 
+
+We'll be using [GitHub Copilot modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure) which is a comprehensive curated custom agent tailored for Java modernization and Azure migrations
+
 
 ## Step 1 — Upgrade JDK and dependency versions
 
