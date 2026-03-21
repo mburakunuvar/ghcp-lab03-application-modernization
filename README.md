@@ -27,11 +27,11 @@ After copying, wait a few seconds and refresh your new repository page. A GitHub
 
 1. **Right click** the **Open in GitHub Codespaces** button below and open the **Create Codespace** page in a new tab. 
 
-   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mburakunuvar/ghcp-lab03-application-modernization?quickstart=1)
 
 1. Confirm the **Repository** field is your copy of the exercise, not the original : 
 
-   - ✅ Your copy: `/{{full_repo_name}}`
+   - ✅ Your copy: `/mburakunuvar/ghcp-lab03-application-modernization`
    - ❌ Original: `/mburakunuvar/ghcp-lab03-application-modernizationz`
 
    Make selections below and then click the green **Create Codespace** button and proceed with default options. You can also click **Check Options** first to cross-check if the configuration matches the screenshot below and the creation.
