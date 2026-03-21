@@ -59,7 +59,7 @@ It'll take 3-4 minutes for your online base VS Code to be provisioned with all r
    > #file:asset-manager  Briefly explain what this project is about
    > ```
    > ```prompt
-   > Does it need an upgrade 
+   > Do you think it needs an upgrade? 
    > ```
 ---
 
