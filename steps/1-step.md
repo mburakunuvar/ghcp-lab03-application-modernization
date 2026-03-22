@@ -14,7 +14,7 @@ In this lab, please proceed from the Quickstart.
 
 
 
-There're 4 java projects in this repo to provide you a broader view and experience. For the application modernization we'll use the asset manager. After an analysis, Copilot will request your chose, please select asset manager. 
+There're 4 Java projects in this repo to provide you a broader view and experience. For the application modernization we'll use the asset manager. After an analysis, Copilot will request your chose, please select asset manager. 
 
 - Proceed with options such as follows : Select Java 21 (LTS), Spring Boot Latest Stable, No-skip test execution 
 
@@ -36,22 +36,24 @@ Quick read in the meantime : [GitHub Copilot modernization for Java](https://lea
 
 - Check the summary file when Copilot App Modernization Agent completes Todos.
 
-- **OPTIONAL** : We'll have another section for unit tests. But if you'd like to broaden your Github Copilot experience across all surfaces beyond IDE including UI and CLI; try to see a fleet of agents in action:
+- **OPTIONAL** :  We'll have another exercises for both security vulnerabilities and  unit tests in following sections. But if you'd like to broaden your Github Copilot experience across all surfaces beyond IDE including UI and CLI; try to see a fleet of agents in action:
+
   <p align="center">
     <img src="../src/images/agents-fleet.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
   </p>
-  - Delegate Fix CVE's to Copilot in UI and (Don't commit changes but just delegate )
-  - Delegate Generate Unit Tests to Copilot CLI  (Move changes)
+  1. Delegate Fix CVE's to Copilot in UI and (Don't commit changes but just delegate )
+
+  2. Delegate Generate Unit Tests to Copilot CLI  (Move changes)
 
 
 From top right of the screen, click **"Show Sessions Side Bar"** and observe 3 agents in 3 platforms running simultaneously. 
 
 <p align="center">
-  <img src="../src/images/session-monitoring.png" alt="Session monitoring — multiple agents running simultaneously" width="600">
+  <img src="../src/images/session-monitoring.png" alt="Session monitoring — multiple agents running simultaneously" width="450">
 </p>
 
 <p align="center">
-  <img src="../src/images/session-monitoring2.png" alt="Session monitoring — multiple agents running simultaneously" width="600">
+  <img src="../src/images/session-monitoring2.png" alt="Session monitoring — multiple agents running simultaneously" width="450">
 </p>
 
 

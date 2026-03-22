@@ -20,7 +20,7 @@
 
 [![Copy Exercise](https://img.shields.io/badge/Copy%20Exercise-green?style=for-the-badge)](https://github.com/new?template_owner=mburakunuvar&template_name=ghcp-lab03-application-modernization&owner=%40me&name=lab03-application-modernization&description=Exercise:+Application+Modernization+with+GitHub+Copilot&visibility=public)
 
-After copying, wait a few seconds and refresh your new repository page. A GitHub Actions workflow will automatically personalize the Codespaces badge for your repository.
+REMINDER: After copying, wait a few seconds and REFRESH YOUR NEW REPOSITORY PAGE. A GitHub Actions workflow will automatically personalize the Codespaces badge for your repository.
 
 ---
 <!-- COPY_EXERCISE_END -->
@@ -65,10 +65,10 @@ It'll take 3-4 minutes for your online base VS Code to be provisioned with all r
    > ```
 ---
 
-Warning : Next steps will assume intermediate level familiariy with Github Copilot. 
+Note : Next steps will assume intermediate level familiariy with Github Copilot. 
 
 - For a quick read about Slash commands, Chat variables and participants please refer to   [GitHub Copilot Chat cheat sheet](https://docs.github.com/en/copilot/reference/chat-cheat-sheet) 
-- for a quick read about  [built-in agents](https://code.visualstudio.com/docs/copilot/chat/copilot-chat#_choose-an-agent). 
+- For a quick read about  [built-in agents](https://code.visualstudio.com/docs/copilot/chat/copilot-chat#_choose-an-agent). 
 
 We'll be using [GitHub Copilot modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure) which is a comprehensive curated custom agent tailored for Java modernization and Azure migrations
 
