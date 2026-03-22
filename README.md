@@ -10,6 +10,7 @@
 - **Prerequisites:** Familiarity with Java and VS Code; a GitHub account with Codespaces access.
 - **How long:** This lab takes approximately 1–2 hours to complete.
 
+<!-- COPY_EXERCISE_START -->
 ## How to start this exercise
 
 > [!IMPORTANT]
@@ -22,6 +23,7 @@
 After copying, wait a few seconds and refresh your new repository page. A GitHub Actions workflow will automatically personalize the Codespaces badge for your repository.
 
 ---
+<!-- COPY_EXERCISE_END -->
 
 ## Prerequisites- Codespaces Setup 
 
@@ -34,7 +36,7 @@ After copying, wait a few seconds and refresh your new repository page. A GitHub
    - ✅ Your copy: `/mburakunuvar/ghcp-lab03-application-modernization`
    - ❌ Original: `/mburakunuvar/ghcp-lab03-application-modernizationz`
 
-   Make selections below and then click the green **Create Codespace** button and proceed with default options. You can also click **Check Options** first to cross-check if the configuration matches the screenshot below and the creation.
+   Click **Check Options** first to cross-check if the configuration matches the screenshot below. Then proceed with default options and then click the green **Create Codespace** button
 
    <p align="center">
      <img src="src/images/create-codespace.jpg" alt="Codespace creation options" width="600">

@@ -9,7 +9,7 @@ In this lab, please proceed from the Quickstart.
 
 
 <p align="center">
-  <img src="../src/images/upgrade-jdk-and-dependecy-asset-manager.png" alt="Upgrade JDK and Dependecies" width="450">
+  <img src="../src/images/upgrade-jdk-and-dependecy-asset-manager.png" alt="Upgrade JDK and Dependecies" width="600">
 </p>
 
 
@@ -36,7 +36,7 @@ Quick read in the meantime : [GitHub Copilot modernization for Java](https://lea
 
 - Check the summary file when Copilot App Modernization Agent completes Todos.
 
-- OPTIONAL : We'll have another section for unit tests. But if you'd like to broaden your Github Copilot experience across all surfaces beyond IDE including UI and CLI; try to see a fleet of agents in action:
+- **OPTIONAL** : We'll have another section for unit tests. But if you'd like to broaden your Github Copilot experience across all surfaces beyond IDE including UI and CLI; try to see a fleet of agents in action:
 
 <p align="center">
   <img src="../src/images/agents-fleet.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
