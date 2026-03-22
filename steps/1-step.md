@@ -47,11 +47,11 @@ Quick read in the meantime : [GitHub Copilot modernization for Java](https://lea
 From top right of the screen, click **"Show Sessions Side Bar"** and observe 3 agents in 3 platforms running simultaneously. 
 
 <p align="center">
-  <img src="../src/images/session-monitoring.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
+  <img src="../src/images/session-monitoring.png" alt="Session monitoring — multiple agents running simultaneously" width="600">
 </p>
 
 <p align="center">
-  <img src="../src/images/session-monitoring2.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
+  <img src="../src/images/session-monitoring2.png" alt="Session monitoring — multiple agents running simultaneously" width="600">
 </p>
 
 
