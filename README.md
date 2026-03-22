@@ -37,7 +37,7 @@ After copying, wait a few seconds and refresh your new repository page. A GitHub
    Make selections below and then click the green **Create Codespace** button and proceed with default options. You can also click **Check Options** first to cross-check if the configuration matches the screenshot below and the creation.
 
    <p align="center">
-     <img src="src/images/create-codespace.png" alt="Codespace creation options" width="600">
+     <img src="src/images/create-codespace.jpg" alt="Codespace creation options" width="600">
    </p>
 
 1. Wait a moment for Visual Studio Code to load in your browser. Please be patient, it's deploying all the packages and necessary extensions for the lab. 
