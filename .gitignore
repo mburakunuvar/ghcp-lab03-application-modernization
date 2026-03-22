@@ -58,3 +58,4 @@ build/
 .vscode/
 
 /logs/
+/steps/4-step.md
