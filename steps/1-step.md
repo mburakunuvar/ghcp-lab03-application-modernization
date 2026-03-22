@@ -37,13 +37,11 @@ Quick read in the meantime : [GitHub Copilot modernization for Java](https://lea
 - Check the summary file when Copilot App Modernization Agent completes Todos.
 
 - **OPTIONAL** : We'll have another section for unit tests. But if you'd like to broaden your Github Copilot experience across all surfaces beyond IDE including UI and CLI; try to see a fleet of agents in action:
-
-<p align="center">
-  <img src="../src/images/agents-fleet.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
-</p>
-
- - -  Delegate Fix CVE's to Copilot in UI and (Don't commit changes but just delegate )
- - -  Delegate Generate Unit Tests to Copilot CLI  (Move changes)
+  <p align="center">
+    <img src="../src/images/agents-fleet.png" alt="Session monitoring — multiple agents running simultaneously" width="800">
+  </p>
+  - Delegate Fix CVE's to Copilot in UI and (Don't commit changes but just delegate )
+  - Delegate Generate Unit Tests to Copilot CLI  (Move changes)
 
 
 From top right of the screen, click **"Show Sessions Side Bar"** and observe 3 agents in 3 platforms running simultaneously. 
