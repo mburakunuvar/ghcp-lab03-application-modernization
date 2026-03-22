@@ -1,4 +1,4 @@
-## Generate unit test cases
+## Generate Unit Test Cases
 
 To generate unit test cases, use the following steps:
 
